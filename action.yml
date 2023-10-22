@@ -49,3 +49,8 @@ jobs:
         AWS_REGION: ${{ github.event.inputs.aws_region || 'us-east-1' }}
         AWS_ACCESS_KEY_ID: ${{ github.event.inputs.aws_access_key_id }}
         AWS_SECRET_ACCESS_KEY: ${{ github.event.inputs.aws_secret_access_key }}
+
+branding:
+  color: 'blue'
+  description: "Optimize web performance: Minify and deploy to AWS CloudFront with ease."
+  action_icon_label: 'code'
