@@ -1,4 +1,5 @@
 name: Minify and Deploy to CloudFront
+description: "Optimize web performance: Minify and deploy to AWS CloudFront with ease."
 
 on:
   push:
@@ -51,6 +52,5 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ github.event.inputs.aws_secret_access_key }}
 
 branding:
-  color: 'blue'
-  description: "Optimize web performance: Minify and deploy to AWS CloudFront with ease."
-  action_icon_label: 'code'
+  icon: "code"
+  color: "blue"
